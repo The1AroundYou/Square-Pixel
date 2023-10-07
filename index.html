@@ -19,13 +19,13 @@
         <nav class="container d-flex flex-column flex-md-row justify-content-between">
             <!--aqui hay que reemplazar la imagen por el logo de square pixel-->
             <a class="py-2" href="#" aria-label="Product">
-                <img src="/img/square pixel logo.jpg" width="30px" height="30px" alt="...">
+                <img class="borde-logo" src="/img/square pixel logo.jpg" width="30px" height="30px" alt="...">
             </a>
             <!--cambiar de color las letras a gris -->
             <a class="py-2 d-none d-md-inline-block" href="#">Inicio</a>
             <a class="py-2 d-none d-md-inline-block" href="#">Nuestro Trabajo</a>
             <a class="py-2 d-none d-md-inline-block" href="#">Precios</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Clientes</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Afiliados</a>
             <a class="py-2 d-none d-md-inline-block" href="#">Sobre nosotros</a>
         </nav>
     </header>
@@ -52,25 +52,51 @@
                 <img src="/img/Instagram post - 1.png" width="500px" height="540px" alt="">
             </div>
         </div>
-        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-            <div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
-                <div class="my-3 py-3">
-                    <h1>Hola mundo</h1>
-                    <p>este es un texto de prueba</p>
+        <!--Tarjetas (agregar animacion de intro)-->
+        <div class="album py-5">
+            <div class="container">
+                <div class=" d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+                    <!--Tarjeta 1-->
+                    <div class="bg-dark me-md-5 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden borde-inicio">
+                        <div class="my-3 py-3">
+                            <h2>Hola mundo</h2>
+                            <p>esta es una demostracion</p>
+                        </div>
+                        <img src="/img/halfIphone.png" width="80%" alt="">
+                    </div>
+                    <!--Tarjeta 2-->
+                    <div class="bg-light me-md-5 pt-3 px-3 pt-md-5 px-md-5 ml-4 text-center text-black overflow-hidden borde-inicio">
+                        <div class="my-3 py-3">
+                            <h2>otro titulo</h2>
+                            <p>este es otro texto de demostracion</p>
+                        </div>
+                        <img src="img/laptopAndPhone.png" width="80%" alt="">
+                    </div>
+                    <!--Tarjeta 3-->
+                    <div class="bg-dark me-md-5 pt-3 px-3 pt-md-5 px-md-5 ml-4 text-center text-white overflow-hidden borde-inicio">
+                        <div class="my-3 py-3">
+                            <h2>otro titulo</h2>
+                            <p>este es otro texto de demostracion</p>
+                        </div>
+                        <img src="/img/wenINlaptop.png" width="80%" alt="">
+                    </div>
                 </div>
-                <!--insertar las imagenes de telefonos o computadoras con sitios web-->
-                <img class="Iphone-half" src="/img/halfIphone.png" width="300px" alt="">
             </div>
-            <!--acomodar las tarjetas para que se vean bien en pares-->
-            <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden">
-                <div class="my-3 py-3">
-                    <h1>Hola mundo</h1>
-                    <p>este es un texto de prueba</p>
-                </div>
-                <!--insertar las imagenes de telefonos o computadoras con sitios web-->
         </div>
-        
-
+        <div class="borde-inicio position-relative overflow-hidden p-3 p-md-5 m-md-3 color-de-fondo">
+            <div class="container marketing">
+                <div class="row featurette">
+                    <div class="col-md-7 text-white">
+                        <h2>Otro titulo</h2>
+                        <p>este es otro texto de prueba</p>
+                    </div>
+                    <div class="col-md-5">
+                        <img src="/img/square pixel logo.jpg" width="500px" height="500px" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+            
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

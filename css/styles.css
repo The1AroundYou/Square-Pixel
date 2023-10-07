@@ -53,3 +53,11 @@ body {
     }   
 }
 
+.borde-logo{
+    border-radius: 10%;
+}
+
+.color-de-fondo {
+    background-color: #222222;
+    padding: 20%;
+}
