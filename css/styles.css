@@ -50,7 +50,10 @@ body {
         left: -30%;
         bottom: 35%;
         
-    }   
+    }
+    .img-respon{
+        width: 41%!important;
+    }
 }
 
 .borde-logo{
@@ -60,4 +63,12 @@ body {
 .color-de-fondo {
     background-color: #222222;
     padding: 20%;
+}
+
+.text-orient {
+    text-align: right!important;
+}
+
+.text-marg{
+    margin-top: 20%!important;
 }
