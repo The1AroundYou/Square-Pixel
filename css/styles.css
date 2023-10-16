@@ -72,3 +72,53 @@ body {
 .text-marg{
     margin-top: 20%!important;
 }
+
+.featurette-divider{
+    margin-top: 5%!important;
+    margin-bottom: 5%!important;
+}
+
+.divider-s{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.bg-coolor{
+    background-color: #2F2E2B!important;
+}
+
+.card-1 {
+    width: 250px;
+    height: 509px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #f1f1f1;
+    box-shadow: 9px 18px 27px 2px rgba(65, 64, 64, 0.25);
+}
+
+.card-2 {
+    width: 322px;
+    height: 623px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #272727;
+    box-shadow: 15px 21px 27px 2px rgba(65, 64, 64, 0.25);
+}
+
+.check-list{
+    list-style: none;
+}
+
+.check-list li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.check-list li img{
+    margin-right: 10px;
+}
+
+.rounded-custom{
+    border-radius: 20px!important;
+    background-color: #f1f1f1!important;
+}
